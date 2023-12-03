@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(19, 19, 19);
+}
+h1 {
+    padding-left: 225px;
+    margin-right: 225px;
+    color: rgb(131, 131, 131);
+    
+    }
+.canarpac {
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+h2 {
+    padding-left: 225px;
+    padding-right: 225px;
+    color: rgb(130, 5, 5)
+}
+p{
+   padding-left: 30px;
+    padding-right: auto;
+    color: bisque;
+    font-family:monospace
+}
+
+img {
+    border-radius: 5%;  
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    max-width: 50rem;
+    margin-inline: auto;   
+     
+}
+
+.image-gallery > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: 
+    scale 350ms ease;
+    opacity: 350ms linear;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.image-gallery:has(img:hover) > img:not(:hover) {
+    scale: .8;
+    opacity: .7;
+}
+
+.list {
+    color: rgb(173, 173, 173);
+}
+
+.lines {
+    background-color: brown;
+}
